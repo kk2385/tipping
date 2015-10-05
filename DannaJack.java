@@ -178,19 +178,6 @@ public class DannaJack extends NoTippingPlayer{
         }
         System.out.printf("Returning best: %s with goodness %d\n", best, bestGoodness);
         return best;
-        
-        
-        
-        
-        // if we can do something
-//        if (candidates.size() != 0) {
-//            int index = strategy.nextInt(candidates.size());
-//            return candidates.get(index);
-//        } else {
-//            // we lost so just choose something random
-//            int index = strategy.nextInt(remove_candidate.size());
-//            return remove_candidate.get(index);
-//        }
     }
     
     private List<Weight> copy(List<Weight> li) {
